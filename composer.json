@@ -1,0 +1,24 @@
+{
+    "name": "amaxlab/tocan-notifications",
+    "description": "Библиотека для обработки событий оплаты с сервиса приема платежей 2CAN",
+    "keywords": [ "2can", "api", "notifications"],
+    "homepage": "https://github.com/amaxlab/tocan-notifications",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.3",
+        "lib-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tocan\\Notification\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Egor Zyuskin",
+            "email": "egor@zyuskin.ru"
+        }        
+    ]
+}
+
